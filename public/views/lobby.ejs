@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include ('partials/head') %>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Song Cloud</div>
+    <ul class="nav-links">
+        <a href="/" class="home-btn">
+            <span class="home-icon">&#8962;</span> Home
+          </a>
+    </ul>
+    <input type="text" class="search-bar" placeholder="Search Music...">
+    <a href="favorites.html" class="fav-btn">
+        <span class="fav-icon">&#9733;</span> Favorites
+      </a>
+      
+  </nav>
+
+
+  <section class="trend-section">
+    <h2>Trend Musics on Song Cloud</h2>
+    <div class="carousel">
+      <button class="scroll-btn left" onclick="scrollCarousel(-1)">&#10094;</button>
+      <div class="image-container" id="imageContainer">
+        <a href="songd.html">
+        <div  class="image"><img src="public/image/nay yrr time mrr.jpg" alt="Image description" ></div>
+        </a>
+        <div class="image">IMG</div>
+        <div class="image">IMG</div>
+        <div class="image">IMG</div>
+        <div class="image">IMG</div>
+        <div class="image">IMG</div>
+        <div class="image">IMG</div>
+        <div class="image">IMG</div>
+        <div class="image">IMG</div>
+        <div class="image">IMG</div>
+      </div>
+      <button class="scroll-btn right" onclick="scrollCarousel(1)">&#10095;</button>
+    </div>
+  </section>
+  <footer class="footer">
+  </footer>
+
+  <div class="highlight-section">
+    <div class="highlight">
+        <a href="songd.html">
+          <div class="image">
+            <img src="public/nay yrr time mrr.jpg" alt="နေရာတိုင်းမှာ" />
+        </div>
+        </a>
+        <div class="song-details">
+            <p class="song-name">နေရာတိုင်းမှာ</p>
+            <p class="artist">ဆိုင်းထီးဆိုင်</p>
+        </div>
+    </div>
+  </div>
+<div class="highlight-section">
+  <div class="highlight">
+      <a href="">
+          <div class="image">IMG</div>
+      </a>
+      <div class="song-details">
+          <p class="song-name">Song Name</p>
+          <p class="artist">Artist</p>
+      </div>
+  </div>
+</div>
+<div class="highlight-section">
+  <div class="highlight">
+      <a href="">
+          <div class="image">IMG</div>
+      </a>
+      <div class="song-details">
+          <p class="song-name">Song Name</p>
+          <p class="artist">Artist</p>
+      </div>
+  </div>
+</div>
+<div class="highlight-section">
+  <div class="highlight">
+      <a href="">
+          <div class="image">IMG</div>
+      </a>
+      <div class="song-details">
+          <p class="song-name">Song Name</p>
+          <p class="artist">Artist</p>
+      </div>
+  </div>
+</div>
+<div class="highlight-section">
+  <div class="highlight">
+      <a href="">
+          <div class="image">IMG</div>
+      </a>
+      <div class="song-details">
+          <p class="song-name">Song Name</p>
+          <p class="artist">Artist</p>
+      </div>
+  </div>
+</div>
+
+  <footer class="footer">
+    <p>&copy; 2024 Song Cloud | Created by X-Star</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
