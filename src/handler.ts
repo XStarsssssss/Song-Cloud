@@ -1,8 +1,8 @@
-import { Request , Response } from "express";
+import { Request, Response } from 'express';
 
-export const homepageGetHandler = (_: Request, res : Response)=>{
+export const homepageGetHandler = (_: Request, res: Response) => {
     res.render('index');
 };
-export const lobbypageGetHandler = (_: Request, res : Response)=>{
+export const lobbypageGetHandler = (_: Request, res: Response) => {
     res.render('lobby');
 };
