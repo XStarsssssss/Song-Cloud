@@ -6,3 +6,7 @@ export const homepageGetHandler = (_: Request, res: Response) => {
 export const lobbypageGetHandler = (_: Request, res: Response) => {
     res.render('lobby');
 };
+export const favpageGetHandler = (_: Request, res: Response) => {
+    res.render('fav');
+};
+

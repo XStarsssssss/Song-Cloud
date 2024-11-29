@@ -5,49 +5,134 @@
 </head>
 <body>
   <nav class="navbar">
-    <div class="logo">Song Cloud</div>
+    <a href="/" class="logo">Song Cloud</a>
     <ul class="nav-links">
-        <a href="/" class="home-btn">
-            <span class="home-icon">&#8962;</span> Home
-          </a>
+  
     </ul>
     <input type="text" class="search-bar" placeholder="Search Music...">
-    <a href="favorites.html" class="fav-btn">
+    <a href="/fav" class="fav-btn">
         <span class="fav-icon">&#9733;</span> Favorites
+    </a>
+</nav>
+
+<section class="trend-section">
+  <h2>Legendary Artist</h2>
+  <div class="carousel">
+    <button class="scroll-btn left" onclick="scrollCarousel(-1)">&#10094;</button>
+    <div class="image-container" id="imageContainer">
+      <a href="songd.html">
+      <div  class="singer"><img src="../image/sai htee saing.jpg" alt="Sai Htee Saing" ></div>
+      <h4>Sai Htee Saing</h4>
       </a>
-      
-  </nav>
-
-
-  <section class="trend-section">
-    <h2>Trend Musics on Song Cloud</h2>
-    <div class="carousel">
-      <button class="scroll-btn left" onclick="scrollCarousel(-1)">&#10094;</button>
-      <div class="image-container" id="imageContainer">
-        <a href="songd.html">
-        <div  class="image"><img src="public/image/nay yrr time mrr.jpg" alt="Image description" ></div>
+      <a href="songd.html">
+        <div  class="singer"><img src="../image/Khin.jpg" alt="Khin Maung Toe" ></div>
+        <h4>Khin Maung Toe</h4>
         </a>
-        <div class="image">IMG</div>
-        <div class="image">IMG</div>
-        <div class="image">IMG</div>
-        <div class="image">IMG</div>
-        <div class="image">IMG</div>
-        <div class="image">IMG</div>
-        <div class="image">IMG</div>
-        <div class="image">IMG</div>
-        <div class="image">IMG</div>
-      </div>
-      <button class="scroll-btn right" onclick="scrollCarousel(1)">&#10095;</button>
+        <a href="songd.html">
+          <div  class="singer"><img src="../image/Htoo.jpg" alt="Htoo Eaint Tin" ></div>
+          <h4>Htoo Eaint Tin</h4>
+          </a>
+      <a href="songd.html">
+        <div  class="singer"><img src="../image/bo phyu.jpg" alt="Bo Phyu" ></div>
+        <h4>Bo Phyu</h4>
+        </a>
+        <a href="songd.html">
+          <div  class="singer"><img src="../image/Han Tun.jpg" alt="Han Tun" ></div>
+          <h4>Han Tun</h4>
+          </a>
+          <a href="songd.html">
+            <div  class="singer"><img src="../image/Zaw Win Htut.jpg" alt="Zaw Win Htut" ></div>
+            <h4>Zaw Win Htut</h4>
+            </a>
+            <a href="songd.html">
+              <div  class="singer"><img src="../image/Zaw Paing.jpg" alt="Zaw Paing" ></div>
+              <h4>Zaw Paing</h4>
+              </a>
     </div>
-  </section>
-  <footer class="footer">
-  </footer>
+    <button class="scroll-btn right" onclick="scrollCarousel(1)">&#10095;</button>
+  </div>
+</section>
+<footer class="footer">
+</footer>
 
+<section class="trend-section">
+  <h2>Popular Artist</h2>
+  <div class="carousel2">
+    <button class="scroll-btn left" onclick="scrollCarousel2(-1)">&#10094;</button>
+    <div class="image-container" id="imageContainer2">
+      <a href="songd.html">
+      <div  class="singer"><img src="../image/Hlwan Paing.jpg" alt="Hlwan Paing" ></div>
+      <h4>Hlwan Paing</h4>
+      </a>
+      <a href="songd.html">
+        <div  class="singer"><img src="../image/G-Fatt.jpg" alt="G-Fatt" ></div>
+        <h4>G-Fatt</h4>
+        </a>
+        <a href="songd.html">
+          <div  class="singer"><img src="../image/J-Fire.jpg" alt="J-Fire" ></div>
+          <h4>J-Fire</h4>
+          </a>
+      <a href="songd.html">
+        <div  class="singer"><img src="../image/Nay Win.jpg" alt="Nay Win" ></div>
+        <h4>Nay Win</h4>
+        </a>
+        <a href="songd.html">
+          <div  class="singer"><img src="../image/Sai Sai Kham Leng.jpg" alt="Sai Sai Kham Leng" ></div>
+          <h4>Sai Sai Kham Leng </h4>
+          </a>
+          <a href="songd.html">
+            <div  class="singer"><img src="../image/Bunny Phyoe.jpg" alt="Bunny Phyoe" ></div>
+            <h4>Bunny Phyoe</h4>
+            </a>
+            <a href="songd.html">
+              <div  class="singer"><img src="../image/ကြက်ဖ.jpg" alt="ကြက်ဖ" ></div>
+              <h4>ကြက်ဖ</h4>
+              </a>
+    </div>
+    <button class="scroll-btn right" onclick="scrollCarousel2(1)">&#10095;</button>
+  </div>
+</section>
+<footer class="footer">
+</footer>
+
+<section class="trend-section1">
+  <h2>Popular Song</h2>
+  <div class="carousel1">
+    <button class="scroll-btn left" onclick="scrollCarousel1(-1)">&#10094;</button>
+    <div class="image-container" id="imageContainer1">
+      <a href="songd.html">
+      <div  class="image"><img src="../image/nay yrr time mrr.jpg" alt="Image description" ></div>
+      </a>
+      <a href="songd.html">
+        <div  class="image"><img src="../image/nay yrr time mrr.jpg" alt="Image description" ></div>
+        </a>
+        <a href="songd.html">
+          <div  class="image"><img src="../image/nay yrr time mrr.jpg" alt="Image description" ></div>
+          </a>
+          <a href="songd.html">
+            <div  class="image"><img src="../image/nay yrr time mrr.jpg" alt="Image description" ></div>
+            </a>
+            <a href="songd.html">
+              <div  class="image"><img src="../image/nay yrr time mrr.jpg" alt="Image description" ></div>
+              </a>
+              <a href="songd.html">
+                <div  class="image"><img src="../image/nay yrr time mrr.jpg" alt="Image description" ></div>
+                </a>
+                <a href="songd.html">
+                  <div  class="image"><img src="../image/nay yrr time mrr.jpg" alt="Image description" ></div>
+                  </a>
+    </div>
+    <button class="scroll-btn right" onclick="scrollCarousel1(1)">&#10095;</button>
+  </div>
+</section>
+<footer class="footer">
+</footer>
+  
   <div class="highlight-section">
     <div class="highlight">
         <a href="songd.html">
           <div class="image">
-            <img src="public/nay yrr time mrr.jpg" alt="နေရာတိုင်းမှာ" />
+            <img src="../image/nay yrr time mrr.jpg" alt="နေရာတိုင်းမှာ" />
         </div>
         </a>
         <div class="song-details">
@@ -56,54 +141,49 @@
         </div>
     </div>
   </div>
-<div class="highlight-section">
-  <div class="highlight">
-      <a href="">
-          <div class="image">IMG</div>
-      </a>
-      <div class="song-details">
-          <p class="song-name">Song Name</p>
-          <p class="artist">Artist</p>
-      </div>
+  <div class="highlight-section">
+    <div class="highlight">
+        <a href="songd.html">
+          <div class="image">
+            <img src="../image/nay yrr time mrr.jpg" alt="နေရာတိုင်းမှာ" />
+        </div>
+        </a>
+        <div class="song-details">
+            <p class="song-name">နေရာတိုင်းမှာ</p>
+            <p class="artist">ဆိုင်းထီးဆိုင်</p>
+        </div>
+    </div>
   </div>
-</div>
-<div class="highlight-section">
-  <div class="highlight">
-      <a href="">
-          <div class="image">IMG</div>
-      </a>
-      <div class="song-details">
-          <p class="song-name">Song Name</p>
-          <p class="artist">Artist</p>
-      </div>
+  <div class="highlight-section">
+    <div class="highlight">
+        <a href="songd.html">
+          <div class="image">
+            <img src="../image/nay yrr time mrr.jpg" alt="နေရာတိုင်းမှာ" />
+        </div>
+        </a>
+        <div class="song-details">
+            <p class="song-name">နေရာတိုင်းမှာ</p>
+            <p class="artist">ဆိုင်းထီးဆိုင်</p>
+        </div>
+    </div>
   </div>
-</div>
-<div class="highlight-section">
-  <div class="highlight">
-      <a href="">
-          <div class="image">IMG</div>
-      </a>
-      <div class="song-details">
-          <p class="song-name">Song Name</p>
-          <p class="artist">Artist</p>
-      </div>
+  <div class="highlight-section">
+    <div class="highlight">
+        <a href="songd.html">
+          <div class="image">
+            <img src="../image/nay yrr time mrr.jpg" alt="နေရာတိုင်းမှာ" />
+        </div>
+        </a>
+        <div class="song-details">
+            <p class="song-name">နေရာတိုင်းမှာ</p>
+            <p class="artist">ဆိုင်းထီးဆိုင်</p>
+        </div>
+    </div>
   </div>
-</div>
-<div class="highlight-section">
-  <div class="highlight">
-      <a href="">
-          <div class="image">IMG</div>
-      </a>
-      <div class="song-details">
-          <p class="song-name">Song Name</p>
-          <p class="artist">Artist</p>
-      </div>
-  </div>
-</div>
 
   <footer class="footer">
     <p>&copy; 2024 Song Cloud | Created by X-Star</p>
   </footer>
-  <script src="script.js"></script>
+  <script src="../javascript/script.js"></script>
 </body>
 </html>
