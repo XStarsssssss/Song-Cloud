@@ -9,4 +9,8 @@ export const lobbypageGetHandler = (_: Request, res: Response) => {
 export const favpageGetHandler = (_: Request, res: Response) => {
     res.render('fav');
 };
+export const saipageGetHandler = (_: Request, res: Response) => {
+    res.render('Sai_Htee_Saing');
+};
+
 
