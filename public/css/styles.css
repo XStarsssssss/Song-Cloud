@@ -74,7 +74,7 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #1a1a2e;
+    background-color:#1a1a2e ; /*#FF4191 #1a1a2e*/
     position: fixed;
     width: 100%;
     top: 0;
@@ -96,6 +96,7 @@
     color: #fff;
     font-size: 24px;
     font-weight: 600;
+    text-shadow: 2px 2px 4px #0fc7d1;
   }
   
   .hero {

@@ -46,6 +46,10 @@ function scrollCarousel2(direction) {
     behavior: 'smooth'
   });
 }
+function toggleFavorite(button) {
+  button.classList.toggle('active');
+  button.innerHTML = button.classList.contains('active') ? '&#x2665;' : '&#x2661;';
+}
 
 
 

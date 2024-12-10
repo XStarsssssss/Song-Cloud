@@ -93,7 +93,7 @@
    h2 {
     font-size: 28px;
     margin-bottom: 20px;
-    color: #e3dad7;
+    color: #f8f403;
   }
 
   .carousel ,.carousel1,.carousel2 {
@@ -177,49 +177,56 @@ img:hover {
   .scroll-btn {
     background-color: #000000;
   }
+  .highlight {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+  }
   
-.highlight {
-  display: flex;
-  align-items: center;
-  gap: 10px; 
-}
-
-.highlight .image{
-  min-width: 100px;
-  height: 100px;
-  background-color: #333; 
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  font-size: 24px;
-  border-radius: 8px;
-}
-
-.song-details {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: #ffffff;
-}
-
-.song-name {
-  font-size: 18px;
-  font-weight: bold;
-  color: #f0a500;
-  margin: 0; 
-}
-
-.artist {
-  font-size: 14px;
-  color: #cccccc;
-  margin: 0; 
-}
-
-
-.song-details .extra-info {
+  .highlight .image{
+    min-width: 100px;
+    height: 100px;
+    background-color: #333; 
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 10px;
+    margin: 30px;
+    
+  }
+  .highlight .image:hover {
+    background-color: #555;         
+    transform: translateY(-5px);   
+  }
+  
+  .song-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+  }
+  
+  .song-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f0a500;
+    margin: 0; 
+  }
+  
+  .artist {
     font-size: 14px;
-    color: #962323;
-}
+    color: #cccccc;
+    margin: 0; 
+  }
+  
+  
+  .song-details .extra-info {
+      font-size: 14px;
+      color: #962323;
+  }
+  
+  
   .footer {
     background-color: #23232a;
     text-align: center;
@@ -233,17 +240,33 @@ img:hover {
   .image img {
     width: 150px;               
     height: 100px;              
-    border-radius: 5px;        
+    border-radius: 10px;        
     object-fit: cover;  
   }   
 
   .profile-container {
-    
     width: 100%;
     margin: 100px auto;
     background-color: #000000;
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+.favorite_heart-btn {
+  background: none;
+  border: none;
+  font-size: 28px;
+  color: #888888;       
+  cursor: pointer;
+  transition: color 0.3s, transform 0.3s;     
+}
+
+.favorite_heart-btn:hover {
+  color: #ff0404;       
+  transform: scale(1.1);
+}
+
+.favorite_heart-btn.active {
+  color: #f20000;        
 }
 
