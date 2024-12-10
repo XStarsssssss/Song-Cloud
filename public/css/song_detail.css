@@ -134,7 +134,7 @@
 
 .lyrics-section {
     padding: 20px;
-    background-color: #000000;
+    background-color: #5f5f5f;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 20px 0;
@@ -190,10 +190,6 @@
     width: 100%;
 }
 
-audio {
-    width: 100%;
-    max-width: 500px;
-}
 .favorite_heart-btn {
   background: none;
   border: none;
@@ -201,7 +197,8 @@ audio {
   color: #888888;       
   cursor: pointer;
   transition: color 0.3s, transform 0.3s;   
-  margin-left:47%;
+  float: right;
+ 
   
 }
 
@@ -289,3 +286,4 @@ audio {
       background: purple;
       animation-delay: 1s;
     }
+    
