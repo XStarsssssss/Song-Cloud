@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { bophyupageGetHandler, favpageGetHandler, hantunpageGetHandler, homepageGetHandler, htooeaintinpageGetHandler, khinmaungtoepageGetHandler, lobbypageGetHandler, nayyrrtimemrrdetailpageGetHandler, saipageGetHandler, zawpaingpageGetHandler, zawwinhtutpageGetHandler } from './handler';
+import { bophyupageGetHandler, cherrykotrrpannprrpageGetHandler, dehtetpopmatatbuupageGetHandler, favpageGetHandler, hantunpageGetHandler, homepageGetHandler, htooeaintinpageGetHandler, khinmaungtoepageGetHandler, lobbypageGetHandler, nayyrrtimemrrdetailpageGetHandler, saipageGetHandler, TabrwayaeyinthwelndelpageGetHandler, zawpaingpageGetHandler, zawwinhtutpageGetHandler } from './handler';
 
 const router = Router();
 
@@ -24,6 +24,14 @@ router.get('/Zaw_Win_Htut', zawwinhtutpageGetHandler );
 router.get('/Zaw_Paing', zawpaingpageGetHandler );
 
 router.get('/Nay_Yrr_Time_Mrr_Detail', nayyrrtimemrrdetailpageGetHandler );
+
+router.get('/Cherry_Ko_Tar_Pann_Prr_Detail', cherrykotrrpannprrpageGetHandler );
+
+router.get('/De_Htet_Po_P_Ma_Tat_Naing_Buu_Detail', dehtetpopmatatbuupageGetHandler );
+
+router.get('/Tabrwa_Yae_Yin_Twhel_Ngel', TabrwayaeyinthwelndelpageGetHandler );
+
+
 
 
 export default router;

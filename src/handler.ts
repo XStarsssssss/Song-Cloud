@@ -33,5 +33,14 @@ export const zawpaingpageGetHandler = (_: Request, res: Response) => {
 export const nayyrrtimemrrdetailpageGetHandler = (_: Request, res: Response) => {
     res.render('nay_yrr_time_mrr_detail');
 }
+export const cherrykotrrpannprrpageGetHandler = (_: Request, res: Response) => {
+    res.render('cherry_ko_tr_pan_prr_detail');
+}
+export const dehtetpopmatatbuupageGetHandler = (_: Request, res: Response) => {
+    res.render('de_htet_po_p_ma_tat_naing_buu_detail');
+}
+export const TabrwayaeyinthwelndelpageGetHandler = (_: Request, res: Response) => {
+    res.render('Tabawa_Yae_Yin_Twale_Ngel_detail');
+}
 
 

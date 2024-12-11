@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%- include ('partials/head') %>
+    </head>
+<body>
+
+    
+    <nav class="navbar">
+        <a href="/" class="logo">Song Cloud</a>
+        <ul class="nav-links">
+      
+        </ul>
+         <a href="/lobby" class="fav-btn">
+            <span class="fav-icon"></span> Back
+          </a>
+    </nav>
+   
+
+    <div class="song-details-container">
+        <div class="image-section">
+            <div class="song-cover-container">
+                <img src="../image/space_tabawa.jpg" alt="Song Cover" class="song-cover">
+            </div>
+            <div class="song-details1">
+                <p class="song-named">သဘာဝရဲ့ရင်သွေးငယ်</p>
+                <p class="artistd">ဆိုင်းထီးဆိုင်</p>
+                <div class="music-detail">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+        <div class="lyrics-section">
+    <div class="lyrics-header">
+        <h2>Lyrics</h2>
+    </div>
+    <div class="lyrics-content">
+        <p>အိုး အို အို</p>
+
+                <p>~~~~</p>
+                <p>ရောင်နီကို ကြိုလင့်တဲ့ ပန်းကလေးတွေ
+                အချစ်ဆုံးရဲ့ အနံ့အသက်ကိုယူခဲ့ပြီ
+                နေဝင်ချိန်အိပ်တန်းတက်ငှက်ကလေးတွေ
+                အချစ်ဆုံးရဲ့ သတင်းစကားကို ဆောင်ခဲ့ပြီ
+                </p>
+               <p>~~</p> 
+                <p>နေခြည်တွေခြုံလွမ်းတဲ့ မနက်ခင်းမှာ
+                    အချစ်ဆုံးရဲ့အနွေးဓါတ်ကိုယူခဲ့ပြီ
+                    လေပြည်ကလေး ဆော့ကစားတဲ့ ညချမ်းမှာ
+                    အချစ်ဆုံးရဲ့ အထိအတွေ့ကို ပြန်ရပြီ
+                </p>
+               <p> ~~</p>
+                
+               <p> ဘယ်ဆီကို ရောက်လို့နေ
+                ဘယ်လောက်ပဲ ဝေးရပါစေ ဘယ်တော့မှ
+                အထီးက်န္မဆန္ခဲ့
+                ရင်ထဲက တမ်းတလိုက်ရုံကလေးနဲ့
+                ကိုယ့်ဘဝရဲ့နေရာတိုင်းမှာ မင်းရှိတယ်
+            </p>
+                <p>လူတွေကကိုယ်တို့နှစ်ယောက်ခွဲရလို
+                    အကုန်ဝိုင်းပြီး သနားကြသတဲ့အချစ်ကလေးရယ်
+                    
+                    ဒီကမ္ဘာမှာ ကိုယ်တို့လောက်နီးကပ်တာ
+                    ဘာတစ်ခုမှ မရှိတော့တာ မသိဘူးကွယ်
+                </p>
+                <p> ~~</p>
+               <p> ဘယ်ဆီကို ရောက်လို့နေ
+                ဘယ်လောက်ပဲ ဝေးရပါစေ ဘယ်တော့မှ
+                အထီးက်န္မဆန္ခဲ့ ရင္ထဲက
+                တမ်းတလိုက်ရုံကလေးနဲ့
+                ကိုယ့်ဘဝရဲ့နေရာတိုင်းမှာ မင်းရှိတယ်
+                </p>
+                
+                <p>လူတွေကကိုယ်တို့နှစ်ယောက်ခွဲရလို
+                အကုန်ဝိုင်းပြီး သနားကြသတဲ့အချစ်ကလေးရယ်
+                ဒီကမ္ဘာမှာ ကိုယ်တို့လောက်နီးကပ်တာ
+                ဘာတစ်ခုမှ မရှိတော့တာ မသိဘူးကွယ်
+                </p>
+                <p> ~~~~</p>
+    </div>
+</div>
+        <div class="audio-section">
+            <div class="audio_detail">
+                <audio controls>
+                  <source src="../audio/Tabrrwa_yae_yin_twae_ngel.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element. 
+              </audio>
+              <div class="favorite_heart-btn">
+                <button class="favorite_heart-btn" onclick="toggleFavorite(this)">
+                  &#x2661;
+              </div>
+        </div>
+        
+            </div>
+        </div>   
+        
+    
+    
+
+
+   
+</body>
+</html>
