@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { bophyupageGetHandler, cherrykotrrpannprrpageGetHandler, dehtetpopmatatbuupageGetHandler, favpageGetHandler, hantunpageGetHandler, homepageGetHandler, htooeaintinpageGetHandler, khinmaungtoepageGetHandler, lobbypageGetHandler, nayyrrtimemrrdetailpageGetHandler, saipageGetHandler, TabrwayaeyinthwelndelpageGetHandler, zawpaingpageGetHandler, zawwinhtutpageGetHandler } from './handler';
+import { bophyupageGetHandler, cherrykotrrpannprrpageGetHandler, dehtetpopmatatbuupageGetHandler, favpageGetHandler, hantunpageGetHandler, homepageGetHandler, htooeaintinpageGetHandler, khinmaungtoepageGetHandler, lobbypageGetHandler, lwanpageGetHandler, nayyrrtimemrrdetailpageGetHandler, pancxituupageGetHandler, saipageGetHandler, salaeshirttanpageGetHandler, TabrwayaeyinthwelndelpageGetHandler, wintmomepageGetHandler, zawpaingpageGetHandler, zawwinhtutpageGetHandler } from './handler';
 
 const router = Router();
 
@@ -30,6 +30,14 @@ router.get('/Cherry_Ko_Tar_Pann_Prr_Detail', cherrykotrrpannprrpageGetHandler );
 router.get('/De_Htet_Po_P_Ma_Tat_Naing_Buu_Detail', dehtetpopmatatbuupageGetHandler );
 
 router.get('/Tabrwa_Yae_Yin_Twhel_Ngel', TabrwayaeyinthwelndelpageGetHandler );
+
+router.get('/Wint_Mome', wintmomepageGetHandler );
+
+router.get('/Lwan', lwanpageGetHandler );
+
+router.get('/Pan_Cxi_Tuu', pancxituupageGetHandler );
+
+router.get('/Salae_Shirt_Tan', salaeshirttanpageGetHandler);
 
 
 

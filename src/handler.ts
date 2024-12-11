@@ -42,5 +42,17 @@ export const dehtetpopmatatbuupageGetHandler = (_: Request, res: Response) => {
 export const TabrwayaeyinthwelndelpageGetHandler = (_: Request, res: Response) => {
     res.render('Tabawa_Yae_Yin_Twale_Ngel_detail');
 }
+export const wintmomepageGetHandler = (_: Request, res: Response) => {
+    res.render('Wint_mome_detail');
+}
+export const lwanpageGetHandler = (_: Request, res: Response) => {
+    res.render('Lwan_detail');
+}
+export const pancxituupageGetHandler = (_: Request, res: Response) => {
+    res.render('Pan_Cxi_Tuu_detail');
+}
+export const salaeshirttanpageGetHandler = (_: Request, res: Response) => {
+    res.render('Sale_Shirt_Tan_detail');
+}
 
 

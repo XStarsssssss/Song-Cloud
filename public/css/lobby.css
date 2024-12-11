@@ -12,19 +12,35 @@
 
   }
   
-  .navbar {
+  .navbar_lobby {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 15px 30px;
-    background-color: #1a1a2e;
-    color: #fff;
+    align-items: center; /* Align items vertically */
+    padding: 15px 20px; /* Consistent padding */
+    background-color: #1a1a2e; /* Dark blue color */
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 10;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
+    z-index: 100;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    animation: slideIn 0.5s ease-in-out; /* Adjust animation duration */
+    transition: background-color 0.3s ease; /* Smooth background transitions */
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-100%); /* Start off-screen */
+    }
+    to {
+        transform: translateY(0); /* Slide into place */
+    }
+}
+
+/* Optional: Change background color on scroll */
+.navbar_lobby.scrolled {
+    background-color: #12122b; /* Slightly darker color */
+}
+
   .home-btn,.fav-btn {
     display: flex;
     align-items: center;
@@ -66,14 +82,31 @@
     font-weight: 500;
   }
   
-  .search-bar {
-    width: 80%;
-    padding: 10px;
-    border-radius: 20px;
-    border: none;
-    background-color: #333;
-    color: #e0e0e0;
+  
+  
+  .search-bar input[type="text"] {
+    width: 220px; 
+    padding: 10px 15px; 
+    border-radius: 20px; 
+    
+    background-color: #333; 
+    color: #e0e0e0; 
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ease; 
   }
+  
+  .search-bar input[type="text"]::placeholder {
+    color: #aaa; 
+    font-size: 14px; 
+  }
+  
+  .search-bar input[type="text"]:focus {
+    background-color: #444; 
+    border-color: #888; 
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  }
+  
 
   .fav-btn {
     color: #e0e0e0;

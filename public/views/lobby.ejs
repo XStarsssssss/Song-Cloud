@@ -4,16 +4,21 @@
     <%- include ('partials/head') %>
 </head>
 <body>
-  <nav class="navbar">
+  <nav class="navbar_lobby">
     <a href="/" class="logo">Song Cloud</a>
     <ul class="nav-links">
-  
     </ul>
-    <input type="text" class="search-bar" placeholder="Search Music...">
+  
+
+    <section class="search-bar">
+      <input type="text" id="search" placeholder="Search Music...">
+  </section>
+
     <a href="/fav" class="fav-btn">
         <span class="fav-icon"></span> Favorites
     </a>
-</nav>
+  </nav>
+
 
 <section class="trend-section">
   <h2>Legendary Artist</h2>
@@ -54,48 +59,9 @@
     <button class="scroll-btn right" onclick="scrollCarousel(1)">&#10095;</button>
   </div>
 </section>
-<footer class="footer">
-</footer>
+<br>
+<hr>
 
-<section class="trend-section">
-  <h2>Popular Artist</h2>
-  <div class="carousel2">
-    <button class="scroll-btn left" onclick="scrollCarousel2(-1)">&#10094;</button>
-    <div class="image-container" id="imageContainer2">
-      <a href="songd.html">
-      <div  class="singer"><img src="../image/Hlwan Paing.jpg" alt="Hlwan Paing" ></div>
-      <h4>Hlwan Paing</h4>
-      </a>
-      <a href="songd.html">
-        <div  class="singer"><img src="../image/G-Fatt.jpg" alt="G-Fatt" ></div>
-        <h4>G-Fatt</h4>
-        </a>
-        <a href="songd.html">
-          <div  class="singer"><img src="../image/J-Fire.jpg" alt="J-Fire" ></div>
-          <h4>J-Fire</h4>
-          </a>
-      <a href="songd.html">
-        <div  class="singer"><img src="../image/Nay Win.jpg" alt="Nay Win" ></div>
-        <h4>Nay Win</h4>
-        </a>
-        <a href="songd.html">
-          <div  class="singer"><img src="../image/Sai Sai Kham Leng.jpg" alt="Sai Sai Kham Leng" ></div>
-          <h4>Sai Sai Kham Leng </h4>
-          </a>
-          <a href="songd.html">
-            <div  class="singer"><img src="../image/Bunny Phyoe.jpg" alt="Bunny Phyoe" ></div>
-            <h4>Bunny Phyoe</h4>
-            </a>
-            <a href="songd.html">
-              <div  class="singer"><img src="../image/ကြက်ဖ.jpg" alt="ကြက်ဖ" ></div>
-              <h4>ကြက်ဖ</h4>
-              </a>
-    </div>
-    <button class="scroll-btn right" onclick="scrollCarousel2(1)">&#10095;</button>
-  </div>
-</section>
-<footer class="footer">
-</footer>
 
 <section class="trend-section1">
   <h2>Popular Song</h2>
@@ -103,32 +69,38 @@
     <button class="scroll-btn left" onclick="scrollCarousel1(-1)">&#10094;</button>
     <div class="image-container" id="imageContainer1">
       <a href="/Nay_Yrr_Time_Mrr_Detail">
-      <div  class="image"><img src="../image/nay yrr time mrr.jpg" alt="Image description" ></div>
+      <div  class="image"><img src="../image/nayyrr.jpg" alt="Image description" ></div>
+      <h4>နေရာတိုင်းမှာ</h4>
       </a>
-      <a href="songd.html">
-        <div  class="image"><img src="../image/nay yrr time mrr.jpg" alt="Image description" ></div>
+      <a href="/Wint_Mome">
+        <div  class="image"><img src="../image/anime_wintmome.webp" alt="Image description" ></div>
+        <h4>ဝတ်မှုန်</h4>
         </a>
-        <a href="songd.html">
-          <div  class="image"><img src="../image/nay yrr time mrr.jpg" alt="Image description" ></div>
+        <a href="/Pan_Cxi_Tuu">
+          <div  class="image"><img src="../image/anime_pancxituu.jpg" alt="Image description" ></div>
+          <h4>ပန်းချစ်သူ</h4>
           </a>
-          <a href="songd.html">
-            <div  class="image"><img src="../image/nay yrr time mrr.jpg" alt="Image description" ></div>
+          <a href="/Lwan">
+            <div  class="image"><img src="../image/anime_lwan.gif" alt="Image description" ></div>
+            <h4>လွမ်း</h4>
             </a>
-            <a href="songd.html">
-              <div  class="image"><img src="../image/nay yrr time mrr.jpg" alt="Image description" ></div>
+            <a href="/Tabrwa_Yae_Yin_Twhel_Ngel">
+              <div  class="image"><img src="../image/space_tabawa.jpg" alt="Image description" ></div>
+              <h4>သဘာဝရဲ့ရင်သွေးငယ်</h4>
               </a>
-              <a href="songd.html">
-                <div  class="image"><img src="../image/nay yrr time mrr.jpg" alt="Image description" ></div>
+              <a href="/De_Htet_Po_P_Ma_Tat_Naing_Buu_Detail">
+                <div  class="image"><img src="../image/space_de_htet.avif" alt="Image description" ></div>
+                <h4>ဒီထက်ပိုပြီးမတတ်နိုင်ဘူး</h4>
                 </a>
-                <a href="songd.html">
-                  <div  class="image"><img src="../image/nay yrr time mrr.jpg" alt="Image description" ></div>
+                <a href="/Cherry_Ko_Tar_Pann_Prr_Detail">
+                  <div  class="image"><img src="../image/cherry.avif" alt="Image description" ></div>
+                  <h4>ချယ်ရီကိုသာပန်ပါကွယ်</h4>
                   </a>
     </div>
     <button class="scroll-btn right" onclick="scrollCarousel1(1)">&#10095;</button>
   </div>
 </section>
-<footer class="footer">
-</footer>
+<hr>
 <div class="highlight-section"> 
   <div class="highlight">
       <a href="songd.html">
