@@ -1,9 +1,12 @@
 import { Request, Response } from 'express';
+import { getAllSongs } from './DataBase/dao/SongsDao';
 
 export const homepageGetHandler = (_: Request, res: Response) => {
     res.render('index');
 };
-export const lobbypageGetHandler = (_: Request, res: Response) => {
+export const lobbypageGetHandler = async (_: Request, res: Response) => {
+    const Songs = await getAllSongs();
+    console.log(Songs);
     res.render('lobby');
 };
 export const favpageGetHandler = (_: Request, res: Response) => {
@@ -54,5 +57,24 @@ export const pancxituupageGetHandler = (_: Request, res: Response) => {
 export const salaeshirttanpageGetHandler = (_: Request, res: Response) => {
     res.render('Sale_Shirt_Tan_detail');
 }
+export const kyaltalsonnrtaenightpageGetHandler = (_: Request, res: Response) => {
+    res.render('Kyal_Tay_Sone_Tae_Night_detail');
+}
+export const tatnaytotcxilrrlatemalpageGetHandler = (_: Request, res: Response) => {
+    res.render('Tat_Nay_Tot_Cxi_Lrr_Late_Mal_detail');
+}
+export const cxituulattsaungpageGetHandler = (_: Request, res: Response) => {
+    res.render('Cxi_Tuu_Latt_Saung_detail');
+}
+export const swaytalpageGetHandler = (_: Request, res: Response) => {
+    res.render('Sway_Tal_detial');
+}
+export const barlolopageGetHandler = (_: Request, res: Response) => {
+    res.render('Bar_Lo_Lo_detial');
+}
+export const legteepageGetHandler = (_: Request, res: Response) => {
+    res.render('Leg_Tee_detail');
+}
+
 
 
