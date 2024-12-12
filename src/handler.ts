@@ -1,12 +1,25 @@
 import { Request, Response } from 'express';
 import { getAllSongs } from './DataBase/dao/SongsDao';
+import { Songs } from './DataBase/model/Songs';
 
-export const homepageGetHandler = (_: Request, res: Response) => {
-    res.render('index');
+export const homepageGetHandler = async (_: Request, res: Response) => {
+    const songs = await getAllSongs();
+    console.log(songs);
+
+    const SaiHteeSaing: Songs[] = songs.filter(
+        (Songs: Songs) => Songs.artist_name === 'Sai Htee Saing',
+    );
+    const KhinMaungToe: Songs[] = songs.filter(
+        (Songs: Songs) => Songs.artist_name === 'KhinMaungToe',
+    );
+
+    res.render('index', {
+        SaiHteeSaing,
+       KhinMaungToe,
+    });
 };
-export const lobbypageGetHandler = async (_: Request, res: Response) => {
-    const Songs = await getAllSongs();
-    console.log(Songs);
+
+export const lobbypageGetHandler = (_: Request, res: Response) => {
     res.render('lobby');
 };
 export const favpageGetHandler = (_: Request, res: Response) => {
